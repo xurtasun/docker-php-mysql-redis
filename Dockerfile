@@ -12,3 +12,4 @@ COPY index.php /var/www/html/index.php
 
 ENTRYPOINT [ "/usr/sbin/apache2ctl", "-D", "FOREGROUND" ]
 
+EXPOSE 80
